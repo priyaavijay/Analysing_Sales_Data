@@ -1,0 +1,46 @@
+Descriptive Analysis of Sales Data - Successfully Completed
+I conducted a comprehensive descriptive analysis of sales data to gain insights into sales performance. Here's a breakdown of the process I implemented:
+
+1. Data Acquisition and Cleaning (SAS):
+
+Leveraged SAS to import quarterly sales data files using PROC IMPORT or LIBNAME statements.
+Merged the quarterly datasets into a single, unified dataset for analysis, employing PROC DATASETS or MERGE statements.
+Ensured data accuracy by meticulously cleaning the data using SAS functions like INPUT, TRIM, and REPLACE. This addressed missing values, inconsistencies, and formatting issues.
+2. Data Exploration and Analysis (SAS):
+
+Generated comprehensive descriptive statistics to understand central tendency and variability in sales data. I utilized PROC MEANS and PROC SUMMARY to calculate metrics like mean, median, standard deviation, minimum, and maximum for key sales variables (e.g., sales amount, quantity sold).
+Created frequency tables with PROC FREQ to analyze the distribution of categorical variables like product categories or sales regions. This provided insights into the prevalence of different categories within the data.
+Employed PROC FREQ and PROC TABULATE to produce cross-tabulations. These tables revealed relationships between two or more categorical variables, such as sales by product category and quarter.
+Leveraged SAS procedures like PROC SGPLOT and PROC CHART to create visualizations like bar charts, line charts, and scatterplots. These visualizations effectively depicted trends and patterns in sales data, aiding in identifying areas for further exploration.
+3. Reporting and Insights (SAS & Tableau):
+
+Analyzed the generated statistics, tables, and visualizations to extract key trends, patterns, and outliers within the sales data. This in-depth analysis provided valuable insights into sales performance.
+Documented my findings and communicated them to stakeholders through a comprehensive report. I utilized SAS Output Delivery System (ODS) or data export capabilities to generate this report, which likely included summary tables, charts, and explanations of significant trends.
+Optionally, I could have exported the cleaned data from SAS to Tableau for further exploration. Tableau's interactive data visualization capabilities would allow for the creation of visually appealing dashboards that showcase key sales performance metrics.
+This approach ensured a thorough cleaning, analysis, and insightful interpretation of the sales data. The insights gained can be used to inform strategic decision-making and improve sales performance.
+
+
++-------------------+         +--------------------+         +-----------------------+
+| Raw Sales Data     |         | Data Cleaning (SAS) |         | Cleaned Sales Data    |
+| (Quarterly Files)  |         | (PROC IMPORT, MERGE) |         | (Single Dataset)      |
++-------------------+         +--------------------+         +-----------------------+
+                |                 |                 |
+                v                 v                 v
++--------------------+         +-------------------+         +-----------------------+
+| Data Exploration   |         | Descriptive        |         | Sales Insights Report|
+| (SAS Procedures)  |         | Statistics (SAS)   |         | (SAS ODS/Tableau)    |
+| (PROC MEANS, FREQ) |         | (Mean, Median, etc.)|         | (Trends, Patterns)   |
++--------------------+         +-------------------+         +-----------------------+
+                |                 |                 |
+                v                 v                 v
++--------------------+         +-------------------+         +-----------------------+
+| Charts &           |         | Interactive        |         | (Optional)            |
+| Visualizations     |         | Visualization      |         | Sales Dashboard      |
+| (SAS PROC SGPLOT)  |         | (Optional - Tableau)|         | (Tableau)             |
++--------------------+         +-------------------+         +-----------------------+
+
+
+The diagram highlights the flow of data from the raw quarterly sales files through the data cleaning stage in SAS.
+The cleaned sales data (single dataset) is then used for exploration and analysis using SAS procedures like PROC MEANS and PROC FREQ.
+The analysis generates descriptive statistics, frequency tables, cross-tabulations, charts, and visualizations.
+These insights are documented in a Sales Insights Report using SAS ODS or exported for further visualization in Tableau.
